@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		134B26C0238B8AD9009EAD20 /* ExtensionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134B26BF238B8AD9009EAD20 /* ExtensionVC.swift */; };
+		13612A142394D91B00BF3BC6 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13612A132394D91B00BF3BC6 /* Heroe.swift */; };
+		13612A162394DC7300BF3BC6 /* HeroeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13612A152394DC7300BF3BC6 /* HeroeCell.swift */; };
+		1399B0BC239D6BD600F3913E /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1399B0BB239D6BD600F3913E /* CardImage.swift */; };
 		13B284E0238B634700C70D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B284DF238B634700C70D9D /* AppDelegate.swift */; };
 		13B284E4238B634700C70D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B284E3238B634700C70D9D /* ViewController.swift */; };
 		13B284E7238B634700C70D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B284E5238B634700C70D9D /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		130181C9A83E62E692158526 /* Pods_Marvel_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134B26BF238B8AD9009EAD20 /* ExtensionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionVC.swift; sourceTree = "<group>"; };
+		13612A132394D91B00BF3BC6 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		13612A152394DC7300BF3BC6 /* HeroeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroeCell.swift; sourceTree = "<group>"; };
+		1399B0BB239D6BD600F3913E /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
 		13B284DC238B634700C70D9D /* Marvel app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marvel app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B284DF238B634700C70D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B284E3238B634700C70D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 		13B284F4238B69DE00C70D9D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				13612A132394D91B00BF3BC6 /* Heroe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +116,7 @@
 		13B284F5238B69E000C70D9D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13612A152394DC7300BF3BC6 /* HeroeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				13B284FB238B6B4300C70D9D /* CardView.swift */,
+				1399B0BB239D6BD600F3913E /* CardImage.swift */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -162,7 +171,6 @@
 				34CD3FE0D8DA21BC44C4FD61 /* Pods-Marvel app.debug.xcconfig */,
 				4A3FFABFE892B99BD370F089 /* Pods-Marvel app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -290,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B28504238B6EE200C70D9D /* HeroeAPI.swift in Sources */,
+				13612A142394D91B00BF3BC6 /* Heroe.swift in Sources */,
 				134B26C0238B8AD9009EAD20 /* ExtensionVC.swift in Sources */,
+				1399B0BC239D6BD600F3913E /* CardImage.swift in Sources */,
 				13B28506238B6F4E00C70D9D /* Routes.swift in Sources */,
+				13612A162394DC7300BF3BC6 /* HeroeCell.swift in Sources */,
 				13B284E4238B634700C70D9D /* ViewController.swift in Sources */,
 				13B284FC238B6B4300C70D9D /* CardView.swift in Sources */,
 				13B284FE238B6E4D00C70D9D /* API.swift in Sources */,
